@@ -39,9 +39,13 @@ Check your access and default storage class before you start:
 oc whoami
 oc get storageclass
 helm version
+sudo pip install --user --force-reinstall awscli
 ```
 
 The ACM page cited here is the 2.15 version, the newest Observability page I could open. The enablement steps below match it; check the 2.16 docs for any changes before production use.
+
+
+
 
 ## Part 1: Install SeaweedFS on OpenShift 4.22
 
